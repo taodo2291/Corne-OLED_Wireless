@@ -30,7 +30,7 @@
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp F  &kp P     &kp B        &kp J        &kp L       &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
 &kp ESC    &kp A  &kp R  &kp S  &kp T     &kp G        &kp M        &kp N       &kp E      &kp I    &kp O          &kp SINGLE_QUOTE
-&kp LCTRL  &kp Z  &kp X  &kp C  &kp D     &kp V        &kp K        &kp H       &kp COMMA  &kp DOT  &kp SLASH      &lt 2 DEL
+&kp LCTRL  &kp X  &kp C  &kp D  &kp V     &kp Z        &kp K        &kp H       &kp COMMA  &kp DOT  &kp SLASH      &lt 2 DEL
                          &mo 3  &kp LGUI  &kp SPACE    &lt 4 ENTER  &sk LSHIFT  &sk LALT
             >;
         };
@@ -48,7 +48,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp GRAVE      &kp TILDE
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN   &kp GREATER_THAN  &kp EQUAL      &kp PLUS
-&trans  &trans  &trans  &trans  &trans  &trans    &kp SLASH             &kp BACKSLASH          &kp MINUS       &kp UNDERSCORE    &kp AMPERSAND  &kp PIPE
+&trans  &trans  &trans  &trans  &trans  &trans    &kp SLASH             &kp BACKSLASH          &kp MINUS       &kp UNDERSCORE    &kp AMPERSAND  &kp EXCLAMATION
                         &trans  &trans  &trans    &trans                &trans                 &trans
             >;
         };
