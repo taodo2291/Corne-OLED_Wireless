@@ -37,10 +37,10 @@
 
         NAV {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp INS   &kp DEL
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp BSPC  &kp TAB
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans     &trans     &kp ESC   &kp ENTER
-                        &trans  &trans  &trans    &trans    &trans     &trans
+&kp DELETE  &kp INSERT     &kp END         &kp PAGE_DOWN   &kp PAGE_UP   &kp HOME           &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB     &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW    &trans  &trans  &trans  &trans  &trans  &trans
+&kp ENTER   &kp ESCAPE     &trans          &trans          &trans        &trans             &trans  &trans  &trans  &trans  &trans  &trans
+                                           &trans          &trans        &trans             &trans  &trans  &trans
             >;
         };
 
