@@ -17,5 +17,6 @@ jobs:
     with:
       keymap_patterns: "config/corne.keymap"
       output_folder: "keymap-drawer"
+      west_config_path: "config/west.yml"
       amend_commit: false
       install_branch: "main"
