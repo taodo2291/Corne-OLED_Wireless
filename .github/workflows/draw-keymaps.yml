@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   draw:
-    uses: caksoylar/keymap-drawer-action@v3.4
+    uses: caksoylar/keymap-drawer-action/.github/workflows/draw-zmk.yml@v3
     with:
       keymap_patterns: "config/corne.keymap"
       output_folder: "keymap-drawer"
