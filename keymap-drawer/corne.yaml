@@ -1,0 +1,357 @@
+layout: {zmk_keyboard: corne}
+layers:
+  Base:
+  - TAB
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ''''
+  - ESC
+  - LCTRL
+  - {t: A, h: LGUI}
+  - {t: R, h: LALT}
+  - {t: S, h: LSHFT}
+  - {t: T, h: LCTRL}
+  - G
+  - M
+  - {t: N, h: LCTRL}
+  - {t: E, h: RSHFT}
+  - {t: I, h: LALT}
+  - {t: O, h: LGUI}
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - {t: '?', s: '!'}
+  - '&key_repeat'
+  - LGUI
+  - {t: SPACE, h: Nav, s: '&dot_spc'}
+  - {t: RET, h: Fn}
+  - {t: '&num_dance', h: Num}
+  - {t: '&shift_dance', h: LSHFT}
+  - '&smart_mouse'
+  Nav:
+  - TAB
+  - Alt+F4
+  - {t: ▽, type: trans}
+  - Sft+TAB
+  - '&swapper'
+  - {t: ▽, type: trans}
+  - PG UP
+  - {t: BSPC, h: Ctl+BSPC}
+  - {t: UP, h: Ctl+HOME}
+  - {t: DEL, h: Ctl+DEL}
+  - {t: ▽, type: trans}
+  - ESC
+  - LCTRL
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LSHFT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: ▽, type: trans}
+  - PG DN
+  - {t: LEFT, h: HOME}
+  - {t: DOWN, h: Ctl+END}
+  - {t: RIGHT, h: END}
+  - RET
+  - ''''
+  - LSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - INS
+  - TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&key_repeat'
+  - LGUI
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - CANCEL
+  - '&smart_mouse'
+  Fn:
+  - TAB
+  - F12
+  - F7
+  - F8
+  - F9
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PREV
+  - VOL UP
+  - NEXT
+  - {t: ▽, type: trans}
+  - ESC
+  - LCTRL
+  - {t: F11, h: LGUI}
+  - {t: F4, h: LALT}
+  - {t: F5, h: LSHFT}
+  - {t: F6, h: LCTRL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Gui+Ctl+LEFT, h: LCTRL}
+  - {t: VOL DN, h: RSHFT}
+  - {t: Gui+Ctl+RIGHT, h: LALT}
+  - {t: ▽, type: trans}
+  - ''''
+  - LSHFT
+  - F10
+  - F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - Gui+Ctl+Sft+A
+  - Gui+Ctl+Sft+Q
+  - Alt+`
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&key_repeat'
+  - LGUI
+  - {t: ▽, type: trans}
+  - {type: held}
+  - MUTE
+  - PP
+  - '&smart_mouse'
+  Num:
+  - TAB
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ESC
+  - LCTRL
+  - {t: '0', h: LGUI}
+  - {t: '4', h: LALT}
+  - {t: '5', h: LSHFT}
+  - {t: '6', h: LCTRL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''''
+  - LSHFT
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&key_repeat'
+  - LGUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - '&smart_mouse'
+  Sys:
+  - TAB
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ESC
+  - LCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&bootloader'
+  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''''
+  - LSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&sys_reset'
+  - '&sys_reset'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&key_repeat'
+  - LGUI
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - '&smart_mouse'
+  Mouse:
+  - TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PG UP
+  - '&mmv MOVE_UP'
+  - PG DN
+  - {t: ▽, type: trans}
+  - ESC
+  - LCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&msc SCRL_RIGHT'
+  - ''''
+  - LSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - {t: ▽, type: trans}
+  - '&key_repeat'
+  - LGUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
+  - '&smart_mouse'
+combos:
+- p: [2, 3]
+  k: ESC
+  l: [Base, Nav, Num]
+- p: [3, 4]
+  k: '&smart_mouse'
+  l: [Base, Nav, Num]
+- p: [14, 15]
+  k: {t: TAB, h: Sft+LALT}
+  l: [Base, Nav, Num]
+- p: [26, 28]
+  k: Ctl+X
+  l: [Base, Nav, Num]
+- p: [26, 27]
+  k: Ctl+INS
+  l: [Base, Nav, Num]
+- p: [27, 28]
+  k: Sft+INS
+  l: [Base, Nav, Num]
+- p: [7, 8]
+  k: BSPC
+  l: [Base, Nav, Num]
+- p: [8, 9]
+  k: DEL
+  l: [Base, Nav, Num]
+- p: [19, 20]
+  k: {t: (, h: Sft+LCTRL, s: <}
+  l: [Base, Num]
+- p: [20, 21]
+  k: {t: ), h: Sft+LALT, s: '>'}
+  l: [Base, Num]
+- p: [19, 20]
+  k: <
+  l: [Nav]
+- p: [20, 21]
+  k: '>'
+  l: [Nav]
+- p: [31, 32]
+  k: '['
+  l: [Base, Num]
+- p: [32, 33]
+  k: ']'
+  l: [Base, Num]
+- p: [31, 32]
+  k: '{'
+  l: [Nav]
+- p: [32, 33]
+  k: '}'
+  l: [Nav]
+- p: [2, 14]
+  k: '@'
+  l: [Base, Nav, Num]
+- p: [3, 15]
+  k: '#'
+  l: [Base, Nav, Num]
+- p: [4, 16]
+  k: $
+  l: [Base, Nav, Num]
+- p: [5, 17]
+  k: '%'
+  l: [Base, Nav, Num]
+- p: [14, 26]
+  k: '`'
+  l: [Base, Nav, Num]
+- p: [15, 27]
+  k: \
+  l: [Base, Nav, Num]
+- p: [16, 28]
+  k: '='
+  l: [Base, Nav, Num]
+- p: [17, 29]
+  k: '~'
+  l: [Base, Nav, Num]
+- p: [6, 18]
+  k: ^
+  l: [Base, Nav, Num]
+- p: [7, 19]
+  k: +
+  l: [Base, Nav, Num]
+- p: [8, 20]
+  k: '*'
+  l: [Base, Nav, Num]
+- p: [9, 21]
+  k: '&'
+  l: [Base, Nav, Num]
+- p: [18, 30]
+  k: _
+  l: [Base, Nav, Num]
+- p: [19, 31]
+  k: '-'
+  l: [Base, Nav, Num]
+- p: [20, 32]
+  k: /
+  l: [Base, Nav, Num]
+- p: [21, 33]
+  k: '|'
+  l: [Base, Nav, Num]
