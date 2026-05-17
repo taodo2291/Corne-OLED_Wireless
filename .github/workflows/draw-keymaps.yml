@@ -11,10 +11,11 @@ permissions:
 
 jobs:
   draw:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: caksoylar/keymap-drawer-action@v3
-        with:
-          keymap_patterns: "config/corne.keymap"
-          output_folder: "keymap-drawer"
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write
+    with:
+      keymap_patterns: "config/corne.keymap"
+      output_folder: "keymap-drawer"
+      amend_commit: false
+      install_branch: "main"
